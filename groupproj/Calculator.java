@@ -79,6 +79,7 @@ public class Calculator {
     }
 
     public void add_buttons_to_frame(JFrame jfrm, JTextField tf, JTextField res) {
+        result = Double.NEGATIVE_INFINITY;
         /*
          * Adds Button to the Frame
          * Listens for events on buttons
